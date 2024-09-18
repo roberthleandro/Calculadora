@@ -1,0 +1,71 @@
+body{
+    background-color: rgb(197, 159, 254);
+    min-width: 300px;
+    min-height: 500px;
+}
+
+main{
+    background-color: rgb(0, 0, 0);
+    max-width: 389px;
+    width: 75%;
+    height: 500px;
+    margin: auto;
+    border-radius: 15px;
+    margin-top: 7%;
+}
+
+button{
+    width:20%;
+    height: 66px;
+    border-radius: 10px;
+    background: white;
+    background-size: cover; 
+    background-position: center;
+    background-repeat: no-repeat;
+    font-size: 25px;
+}
+
+.fundo{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: start;
+    width: 100%;
+    margin: auto;
+}
+
+.tela{
+    text-align: end;
+    border-radius: 15px 15px 0px 0px;
+    width: 98%;
+    font-size: 70px;
+    height: 229px;
+    color:white ;
+    background-color: aliceblue;
+    background-image: url('img/tela.jpg');
+    background-size: cover; 
+    background-position: center;
+    background-repeat: no-repeat;
+}
+ .grande{
+    background: grey;
+    color: white;
+    width: 40%;
+    font-size: 40px;
+ }
+
+button:hover {
+    background-color: rgb(221, 221, 221);
+}
+
+.grande:hover{
+    background-color: rgb(88, 88, 88);
+}
+#apagar {
+    font-size: 21px;
+}
+#img {background-image: url('img/nagi.jpg');
+    background-size: cover; 
+    background-position: center;
+    background-repeat: no-repeat;
+
+}
